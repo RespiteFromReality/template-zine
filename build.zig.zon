@@ -1,10 +1,12 @@
 .{
-    .name = "template-zine",
+    .name = .template_zine,
     .version = "0.1.0",
+    .fingerprint = 0x71a896d80f390dfa,
+    .minimum_zig_version = "0.14.0",
     .dependencies = .{
         .zine = .{
-            .url = "git+https://github.com/kristoff-it/zine?ref=v0.8.0#ec0f549654a4f7183d4520227b6748bba7ade98e",
-            .hash = "122049c99f3faaaff159cdccb3792d1518b10534e8225e26e5b24a369d325b0ebdc5",
+            .url = "git+https://github.com/kristoff-it/zine?ref=main#92ef5f930a65773eb7730f714830a70c9dfebf73",
+            .hash = "1220e1ddbcd6f13a72179fa3b68986f74a83dd52d344b6ff281dc6d9ce41abe78bd2",
         },
     },
     .paths = .{"."},
